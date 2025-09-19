@@ -105,7 +105,7 @@ const TodoScreen = () => {
           paddingVertical: 12,
           paddingHorizontal: 16,
         }}
-        placeholder="ADD A TASK"
+        placeholder="ADD A TASK..."
         value={todo}
         onChangeText={(userText) => setTodo(userText)}
       />
